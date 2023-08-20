@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title shivam dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul
+        div#logo 
+           img(src="/static/image/dance.jpg")
+        li #[a(href="/") Home]  
+        li #[a(href="/") About]
+        li #[a(href="/") Services] 
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact Us]
+           
+        
+    section#introsection 
+     div Welcome to Shivam Dance Academy
+     div.small Eat Sleep Dance Reapet
+
+    section#missionsection
+     h2 mission section
+     div.card 
+        h3 Dance Perfection
+         div.card-box
+           |Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, tempore!
+        
+     div.card 
+        h3 Dance the way you like
+         div.card-box
+            |Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, blanditiis?
+        
+     div.card 
+        h3 Expart Teaching      
+         div.card-box
+            |Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, dignissimos?
+         
+
+    section#sponsorsection 
+     h2 Our sponsor
+     div#sponsors
+        div.one
+         img(src="/static/image/iphone.jpg", alt="hp")
+        div.two 
+         img(src="/static/image/hp.jpg", alt="iphone")
+        div.three
+         img(src="/static/image/apple.jpg", alt="apple")
+        div.four
+         img(src="/static/image/samsung.jpg", alt="samsung")
+        div.five 
+         img(src="/static/image/twitter.jpg", alt="twitter")
+    footer#footer
+     |copyright @ 2023 shivmdanceacademy.com | All right reserved
+
+    script
+      include ../static/index.js

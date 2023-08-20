@@ -1,0 +1,31 @@
+h3{
+    color: burlywood;
+    font-size: 67px;
+    text-size-adjust: 18px;
+    padding: 20px;
+    text-align: center;
+}
+.myform{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+ }
+
+.myInput{
+    border-radius: 10px;
+    padding: 15px;
+    width: 48%;
+    margin: 10px;
+}
+.btn{
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10%;
+    border-radius: 9px;
+    width: 128px;
+    height: 34px;
+    color: brown;
+}
